@@ -1,6 +1,9 @@
 import * as api from '$lib/api';
 import { page_size } from '$lib/constants';
 
+import { NotionAPI } from 'notion-client';
+const notionApi = new NotionAPI();
+
 export async function get({ url: { searchParams }, locals }) {
 	const tab = searchParams.get('tab') || 'all';
 	const tag = searchParams.get('tag');

@@ -17,6 +17,7 @@
 		"svelte": "^3.42.1"
 	},
 	"dependencies": {
-		"cookie": "^0.4.1"
+		"cookie": "^0.4.1",
+		"notion-client": "6.0.8"
 	}
 }
